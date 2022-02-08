@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de login</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(11, 0, 71);
+            color: #fff;
+            font-family:initial;
+            
+        }
+
+        
+    
+        div{
+            background-color: #fff;
+            color: black;
+            border-radius: 10px;
+            padding: 4px;
+            width: 300px;
+            height: 400px;
+            margin: auto;
+            margin-top: 10vh;
+            padding: 20px 20px;
+            
+        }
+        label, input{
+            display: block;
+            margin: 7px;
+            text-align: left;
+        }
+
+        input{
+            border: none;
+            border-bottom:2px solid rgb(10, 0, 97);
+            outline: 0px;
+            padding: 2px 2px;
+            font-size: 1rem;
+        }
+
+        input:focus{
+            border-color:rgb(15, 0, 146) ;
+        }
+
+        button{
+            margin-top: 60px;
+            background-color: rgb(10, 0, 97);
+            color: #fff;
+            border-radius: 10px;
+            border: none;
+            width: 300px;
+            height: 40px;
+            transition: .4s;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(15, 0, 146);
+            color: #fff;
+
+        }
+
+        a{
+            color: black;
+            font-size: 14spx;
+            text-decoration-line: none;
+        }
+
+        a:hover{
+            color: royalblue;
+        }
+
+        p{
+            font-style: normal;
+            margin-top: 7px;
+            margin-bottom: 2px;
+        }
+
+        h1{
+            font-family: sans-serif;
+            font-size: 30px;
+        }
+
+        #ess{
+            display: block;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Login</h1>
+            <label for="text">Username</label>
+            <input type="text" placeholder="Digite seu username..." >
+            <label for="password">Password</label>
+            <input type="password" placeholder="Digite seu password...">
+            <a id="ess" href="">Esqueceu sua senha?</a>
+            <button>entrar</button>
+            <p>Não tem conta ainda?</p>
+            <a href="">registre-se</a>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
